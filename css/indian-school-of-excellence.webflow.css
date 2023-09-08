@@ -2243,7 +2243,7 @@ figcaption {
 }
 
 .admissions-open-float.navbar-banner {
-  display: block;
+  display: none;
 }
 
 .floating-contact-button {
