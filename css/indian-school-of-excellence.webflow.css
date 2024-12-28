@@ -2228,7 +2228,7 @@ figcaption {
   right: 0%;
   bottom: auto;
   z-index: 1;
-  display: none;
+  /* display: none; */
   padding-top: 0px;
   padding-bottom: 0px;
   border-style: none;
@@ -2236,15 +2236,15 @@ figcaption {
   border-color: #333;
   background-color: #fbeeac;
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 32px;
   font-weight: 700;
   text-align: center;
 }
 
-.admissions-open-float.navbar-banner {
+/* .admissions-open-float.navbar-banner {
   display: none;
-}
+} */
 
 .floating-contact-button {
   display: none;
@@ -4321,9 +4321,9 @@ figcaption {
     margin-left: auto;
   }
 
-  .admissions-open-float {
+  /* .admissions-open-float {
     display: none;
-  }
+  } */
 
   .floating-contact-button {
     display: none;
@@ -4952,7 +4952,7 @@ figcaption {
     padding-top: 4px;
     padding-bottom: 4px;
     background-color: #f4d160;
-    color: #fff;
+    color: #222;
     text-align: center;
   }
 
@@ -5836,4 +5836,10 @@ figcaption {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+/* CUSTOM STYLES */
+.my-blue-link {
+  color: #125c94 !important;
+  /* color: #fff !important; */
 }
